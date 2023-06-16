@@ -1,0 +1,103 @@
+.About {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.greet {
+    margin-top: 150px;
+}
+.meet {
+    margin-top: 200px;
+}
+
+/* My card */
+.myConatiner {
+    position: relative;
+    display: flex;
+}
+.myCard {
+    position: relative;
+    width: 800px;
+    height: 200px;
+    margin-bottom: 50px;
+    display: flex;
+    background:linear-gradient(45deg,#242838, #243e6b, #8299c1);
+    align-items: center;
+}
+.me {
+    position: absolute;
+    left: 14.5%;
+    margin-bottom: 40px;
+    transform: translateX(-50%);
+    transition: all 1s ease;
+}
+.myContent {
+    color: #f5f6fa;  
+    font-family: sans-serif;
+    position: relative;
+    width: 40%;
+    left: 0%;
+    opacity: 0;
+    text-align: left;
+    padding: 20px 20px 20px 40px;
+    transition: all 1s ease;
+
+}
+.myCard:hover .myContent {
+    left: 35%;
+    opacity: 1;
+}
+.myCard:hover .me {
+    height: 150%;
+    width: 56.25%;
+}
+
+/* Dog cards */
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.card {
+    position: relative;
+    width: 800px;
+    height: 200px;
+    margin-bottom: 75px;
+    display: flex;
+    background:linear-gradient(45deg,#242838, #243e6b, #8299c1);
+    align-items: center;
+}
+.imgContainer{
+    height: 175px;
+    width: 175px;
+}
+.dog {
+    position: absolute;
+    left: 80%;
+    margin-bottom: 40px;
+    transform: translateX(-50%);
+    transition: all 1s ease;
+}
+.dogContent {
+    color: #f5f6fa;  
+    font-family: sans-serif;
+    position: relative;
+    width: 40%;
+    left: 35%;
+    opacity: 0;
+    text-align: right;
+    padding: 20px 20px 20px 40px;
+    transition: all 1s ease;
+
+}
+.card:hover .dogContent {
+    left: 0%;
+    opacity: 1;
+}
+.card:hover .dog {
+    height: 100%;
+    width: 50%;
+}
