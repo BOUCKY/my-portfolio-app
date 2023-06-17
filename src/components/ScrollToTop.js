@@ -1,5 +1,6 @@
 import React from "react";
 
+
 const ScrollToTop = () => {
     const toTop = () => window.scrollTo({top:0, behavior: 'smooth'});
     return(

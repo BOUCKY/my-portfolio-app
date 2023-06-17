@@ -1,8 +1,5 @@
 import React from "react";
 import '../styling/About.css';
-import NavBar from './NavBar';
-import Footer from './Footer';
-import ScrollToTop from './ScrollToTop';
 
 import MyContainer from "./MyContainer";
 import DogsContainer from "./DogsContainer";

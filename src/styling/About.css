@@ -10,7 +10,7 @@
     margin-top: 150px;
 }
 .meet {
-    margin-top: 200px;
+    margin-top: 150px;
 }
 
 /* My card */
@@ -98,6 +98,6 @@
     opacity: 1;
 }
 .card:hover .dog {
-    height: 100%;
-    width: 50%;
+    height: 150%;
+    width: 40%;
 }

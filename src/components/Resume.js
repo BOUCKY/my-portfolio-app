@@ -1,13 +1,15 @@
 import React from "react";
 import MyResume from '../AlexisBoucouvalasResume.pdf'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faDownload } from "@fortawesome/free-solid-svg-icons";
 
 const Resume = () => {
     return(
         <div className="dropdown">
-            <button className="dropbtn">Resume</button>
+            <button className="dropbtn">RESUME</button>
             <div className="dropdown-content2">
                 <li>
-                    <a href={MyResume}>Download     <i class="fa fa-download" aria-hidden="true"></i></a>
+                    <a href={MyResume}>DOWNLOAD     <FontAwesomeIcon icon={faDownload} aria-hidden='true' /></a>
                 </li>
             </div>
         </div>

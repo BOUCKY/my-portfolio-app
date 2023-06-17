@@ -1,0 +1,28 @@
+.Blogs {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.blogHeader{
+    margin-top: 150px;
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 75%;
+}
+.devLogo {
+    color: #242838;
+    display: flex;
+    flex-direction: column;
+
+}
+.devLogo:hover {
+    opacity: 0.5;
+}
+
+.blog-title{
+    font-size: 30px;
+    font-weight: 600;
+}
