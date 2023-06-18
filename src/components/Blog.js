@@ -1,14 +1,14 @@
 import React from "react";
 
-const Blog = ({image, title, date }) => {
+const Blog = ({image, title, link, date }) => {
     return(
-        <div className='blogCard'>
-            <div className="blogContent">
-                <img>{image}</img>
-                <h2>{title}</h2>
+        <div className="blogContent">
+            <img className="blogImage" src={image} alt="Blog Image" />
+            <div className="blogText">
+                <a className='blogLink' href={link}>{title}</a>
                 <p>{date}</p>
-            </div>                       
-        </div>
+            </div>
+        </div>                       
     )
 }
 

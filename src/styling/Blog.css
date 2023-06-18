@@ -3,9 +3,11 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-bottom: 3%;
 }
 .blogHeader{
     margin-top: 150px;
+    margin-bottom: 75px;
     display:flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -25,4 +27,49 @@
 .blog-title{
     font-size: 30px;
     font-weight: 600;
+}
+
+.blogCard {
+    position: relative;
+    width: 75%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+}
+.blogContent {
+    width: 350px;
+    height: 297.2px;
+    margin: 10px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: #242838;
+    border: hidden;
+    border-radius: 10px;
+}
+.blogContent:hover {
+    box-shadow: 16px 16px 16px 0px rgba(0,0,0,0.2);
+}
+.blogLink {
+    font-size: 25px;
+    font-weight: 600;
+    color: #242838;
+    margin-top: 20px;
+}
+.blogImage {
+    width: 350px;
+    height: 200px;
+    border: hidden;
+    border-radius: 10px 10px 0px 0px;
+}
+.blogText {
+    padding-top: 10px;
+    border-left: 3px solid#a7aab1;
+    border-right: 3px solid#a7aab1;
+    border-bottom: 3px solid#a7aab1;
+    border-radius: 0px 0px 10px 10px;
+}
+.blogText a:hover{
+    opacity: 0.5;
 }
