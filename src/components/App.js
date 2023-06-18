@@ -7,7 +7,7 @@ import ScrollToTop from './ScrollToTop';
 import Home from './Home';
 import About from './About'
 import BlogContainer from './BlogContainer'
-import Projects from './Projects';
+import ProjectContainer from './ProjectContainer';
 
 
 function App() {
@@ -19,7 +19,7 @@ function App() {
           <Route path='/' element={<Home />} />
           <Route path='about' element={<About />} />
           <Route path='blog' element={<BlogContainer />} />
-          <Route path='projects' element={<Projects />} />
+          <Route path='projects' element={<ProjectContainer />} />
         </Routes>
         <ScrollToTop />
         <Footer />
