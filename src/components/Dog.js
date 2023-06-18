@@ -7,7 +7,7 @@ const Dog = ({name, content, image}) => {
                 <h2>{name}</h2>
                 <p>{content}</p>
             </div>
-            <img className='dog' src={image} height={225} width={225}></img>                              
+            <img className='dog' src={image} height={225} width={225} alt="dog"></img>                              
         </div>
     )
 }
