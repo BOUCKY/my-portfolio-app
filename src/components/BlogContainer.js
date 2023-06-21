@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import '../styling/Blog.css'
 import Blog from './Blog'
 import blogData from '../blog_data'
@@ -7,6 +7,12 @@ import { faDev } from '@fortawesome/free-brands-svg-icons';
 
 
 const BlogContainer = () => {
+
+    const [search, setSearch] = useState('')
+    const filteredBlogData = blogData.filter((blogSearchObject) => {
+        return blogSearchObject.title.toLocaleLowerCase().includes(search.toLocaleLowerCase())
+    })
+
     return(
         <div className='Blogs'>
             <div className="blogHeader">
@@ -15,8 +21,17 @@ const BlogContainer = () => {
                     <a className="devLogo" href="https://dev.to/boucky"><FontAwesomeIcon icon={faDev} size="2x" /></a>
                 </div>
             </div>
+            <div className="search-container">
+                <input
+                    className="search-bar"
+                    type="text"
+                    placeholder="SEARCH FOR BLOGS . . ."
+                    value={search}
+                    onChange={event => setSearch(event.target.value)}
+                />
+            </div>
             <div className="blogCard">
-                {blogData.map( blogObject => { 
+                {filteredBlogData.map( blogObject => { 
                     return(
                         <Blog 
                         key={ blogObject.id } 

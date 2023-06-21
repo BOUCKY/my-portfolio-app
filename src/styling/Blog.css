@@ -5,9 +5,11 @@
     justify-content: center;
     margin-bottom: 3%;
 }
+
+/* The header */
 .blogHeader{
     margin-top: 150px;
-    margin-bottom: 75px;
+    margin-bottom: 50px;
     display:flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -18,17 +20,17 @@
     color: #242838;
     display: flex;
     flex-direction: column;
-
+    padding-right: 15px;
 }
 .devLogo:hover {
     opacity: 0.5;
 }
-
 .blog-title{
     font-size: 30px;
     font-weight: 600;
 }
 
+/* Blog Cards */
 .blogCard {
     position: relative;
     width: 75%;
@@ -38,8 +40,9 @@
 }
 .blogContent {
     width: 350px;
-    height: 297.2px;
-    margin: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 50px;
     position: relative;
     display: flex;
     justify-content: center;
@@ -59,11 +62,12 @@
 }
 .blogImage {
     width: 350px;
-    height: 200px;
+    height: 180px;
     border: hidden;
     border-radius: 10px 10px 0px 0px;
 }
 .blogText {
+    height: 100px;
     padding-top: 10px;
     border-left: 3px solid#a7aab1;
     border-right: 3px solid#a7aab1;
