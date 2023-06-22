@@ -7,7 +7,7 @@ const Resume = () => {
     return(
         <div className="dropdown">
             <button className="dropbtn">RESUME</button>
-            <div className="dropdown-content2">
+            <div className="dropdown-content">
                 <li>
                     <a href={MyResume}>DOWNLOAD     <FontAwesomeIcon icon={faDownload} aria-hidden='true' /></a>
                 </li>

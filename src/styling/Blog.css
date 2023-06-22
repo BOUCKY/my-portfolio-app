@@ -64,15 +64,15 @@
     width: 350px;
     height: 180px;
     border: hidden;
-    border-radius: 10px 10px 0px 0px;
+    border-radius: 5px 5px 0px 0px;
 }
 .blogText {
     height: 100px;
     padding-top: 10px;
-    border-left: 3px solid#a7aab1;
-    border-right: 3px solid#a7aab1;
-    border-bottom: 3px solid#a7aab1;
-    border-radius: 0px 0px 10px 10px;
+    border-left: 2px solid#a7aab1;
+    border-right: 2px solid#a7aab1;
+    border-bottom: 2px solid#a7aab1;
+    border-radius: 0px 0px 5px 5px;
 }
 .blogText a:hover{
     opacity: 0.5;
