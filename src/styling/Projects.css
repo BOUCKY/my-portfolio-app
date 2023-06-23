@@ -39,25 +39,26 @@
 .projectCard {
     position: relative;
     width: 75%;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    float: left;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
 }
 .projectContent {
-    width: 350px;
     margin-left: 15px;
     margin-right: 15px;
     margin-bottom: 50px;
     position: relative;
     display: flex;
-    justify-content: center;
-    flex-direction: column;
+    flex-direction: row-reverse;
+    justify-content: left;
+    align-items: center;
     color: #242838;
-    border: hidden;
-    border-radius: 10px;
+    border-left: 2px solid #a7aab1;
+    border-bottom: 2px solid #a7aab1;
 }
 .projectContent:hover {
-    box-shadow: 16px 16px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 16px 0px 16px 0px rgba(0,0,0,0.2);
 }
 .projectLink {
     font-size: 25px;
@@ -65,19 +66,22 @@
     color: #242838;
     margin-top: 20px;
 }
+.projectImageContainer{
+    display: flex;
+    float: right;
+}
 .projectImage {
-    width: 350px;
-    height: 180px;
-    border: hidden;
-    border-radius: 5px 5px 0px 0px;
+    width: 125px;
+    height: 125px;
+    filter: grayscale(50%);
 }
 .projectText {
-    height: 100px;
-    padding-top: 10px;
-    border-left: 2px solid#a7aab1;
-    border-right: 2px solid#a7aab1;
-    border-bottom: 2px solid#a7aab1;
-    border-radius: 0px 0px 5px 5px;
+    width: 80%;
+    text-align: left;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 60px;
 }
 .projectText a:hover{
     opacity: 0.5;
