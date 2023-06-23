@@ -68,6 +68,7 @@
 .blogImage {
     width: 125px;
     height: 125px;
+    filter: grayscale(50%);
 }
 .blogText {
     width: 80%;
