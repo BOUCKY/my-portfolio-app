@@ -38,7 +38,9 @@ const BlogContainer = () => {
                         image={blogObject.image}
                         title={ blogObject.title }
                         link={ blogObject.link} 
+                        preview={blogObject.preview}
                         date={blogObject.date}
+                        minutes={blogObject.minutes}
                         /> 
                     )
                 })}
