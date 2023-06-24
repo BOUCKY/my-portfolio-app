@@ -101,3 +101,51 @@
     display: block;
 }
 
+
+.mobile {
+    color: #242838;
+    background-color: #fcfdff;
+    border: none;
+    cursor: pointer;
+    padding-right: 25px;
+    display: none;
+}
+
+
+@media screen and (max-width: 1000px){
+    .nav-bar.active{
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        padding-right: 25px;
+        margin-top: 90px;
+        margin-left: 70%;
+        width: 30%;
+        background-color: #fcfdff;
+        height: 350px;
+        box-shadow: -16px 16px 16px 8px rgba(0,0,0,0.2);
+    }
+    .nav-bar{
+        display: none;
+    }
+    .nav-bar-list{
+        padding: 20px 0;
+        width: 80%;
+    }
+    .dropbtn{
+        padding-top: 20px;
+        padding-bottom: 50px;
+    }
+    .dropdown-content{
+        margin-top: 40px
+    }
+    .mobile{
+        display: block;
+    }
+    .mobile:hover{
+        opacity: .5;
+    }
+}
