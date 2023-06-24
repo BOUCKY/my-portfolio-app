@@ -9,7 +9,7 @@
 
 .my-div{
     margin-top: 200px;
-    width: 75%
+    width: 75%;
 }
 
 /* Moving Picture */
@@ -70,9 +70,53 @@
     margin-bottom: 5px;
     width: 50%;
 }
+.logo-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
 #stack-logos {
     display: flex;
     justify-content: space-evenly;
     padding-top: 15px;
-    width: 50%;
+    width: 100%;
+}
+
+
+@media screen and (max-width: 1000px){
+    .headshot{
+        width: 30%;
+        height: 30%;
+    }
+}
+
+@media screen and (max-width: 750px){
+    .my-div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .my-info{
+        width: 90%;
+    }
+    .headshot{
+        width: 40%;
+        height: 40%;
+    }
+    .my-div{
+        margin-top: 100px;
+    }
+    .Home{
+        margin-bottom: 25px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .why{
+        font-size: 12px;
+        width: 100%;
+    }
+    .stack{
+        margin-top: 50px;
+    }
 }
