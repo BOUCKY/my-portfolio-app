@@ -160,3 +160,10 @@
         padding-top: 30px;
     }
 }
+
+@media screen and (max-width: 300px){
+    .right-side-nav{
+        font-size: 12px;
+        padding-top: 35px;
+    }
+}

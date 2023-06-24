@@ -24,10 +24,10 @@ const NavBar = () => {
                 </button>
             </div>
             <div className={`nav-bar ${navClick ? 'active' : ''}`}>
-                <li className="nav-bar-list"><NavLink className="nav-bar-link" to="/">HOME</NavLink></li>
-                <li className="nav-bar-list"><NavLink className="nav-bar-link" to="about">ABOUT</NavLink></li>
-                <li className="nav-bar-list"><NavLink className="nav-bar-link" to="blog">BLOG</NavLink></li>
-                <li className="nav-bar-list"><NavLink className="nav-bar-link" to="projects">PROJECTS</NavLink></li>
+                <li className="nav-bar-list"><NavLink className="nav-bar-link" to="/" onClick={handleNavClick}>HOME</NavLink></li>
+                <li className="nav-bar-list"><NavLink className="nav-bar-link" to="about" onClick={handleNavClick}>ABOUT</NavLink></li>
+                <li className="nav-bar-list"><NavLink className="nav-bar-link" to="blog" onClick={handleNavClick}>BLOG</NavLink></li>
+                <li className="nav-bar-list"><NavLink className="nav-bar-link" to="projects" onClick={handleNavClick}>PROJECTS</NavLink></li>
                 <Resume />
             </div>
         </div>

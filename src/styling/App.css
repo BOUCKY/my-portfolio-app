@@ -112,3 +112,32 @@ input[type="text"]:hover{
   opacity: 0; 
   transition: all 0.5s ease;
 }
+
+
+
+@media screen and (max-width: 850px){
+    .backTool{
+      margin-left: 85%;
+    }
+}
+
+@media screen and (max-width: 600px){
+  .backTool{
+    margin-left: 80%;
+  }
+}
+
+@media screen and (max-width: 500px){
+  .backTool{
+    margin-left: 75%;
+  }
+  .footer{
+    height: 225px;
+  }
+}
+
+@media screen and (max-width: 350px){
+  .backTool{
+    margin-left: 65%;
+  }
+}

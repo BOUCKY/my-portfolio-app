@@ -90,7 +90,7 @@
     }
 }
 
-@media screen and (max-width: 750px){
+@media screen and (max-width: 800px){
     .my-div{
         display: flex;
         flex-direction: column;
@@ -118,5 +118,14 @@
     }
     .stack{
         margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 300px){
+    .title{
+        font-size: 20px;
+    }
+    .software-engineer{
+        font-size: 20px;
     }
 }

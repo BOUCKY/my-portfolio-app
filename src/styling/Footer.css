@@ -44,3 +44,20 @@ a {
 .linkedIn:hover {
     opacity: 0.5;
 }
+
+
+@media screen and (max-width: 500px){
+    #contact{
+      font-size: 18px;
+    }
+    .footer-list{
+        font-size: 12px;
+    }
+    a{
+        font-size: 10px;
+    }
+    .foot-div{
+        display: flex;
+        flex-direction: column;
+    }
+}
