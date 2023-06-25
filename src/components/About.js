@@ -9,10 +9,10 @@ import dogsData from "../dogs_data"
 const About = () =>{
     return(
         <div className="About">
-            <div className="greet"><h1>WHO IS ALEXIS BOUCOUVALAS?</h1></div>
+            {/* <div className="greet"><h1>WHO IS ALEXIS BOUCOUVALAS?</h1></div>
             <MyContainer />
             <div className="meet"><h1>MEET THE DOGS</h1></div>
-            <DogsContainer dogsArray={dogsData} />
+            <DogsContainer dogsArray={dogsData} /> */}
         </div>
     )
 }

@@ -90,3 +90,49 @@
 .hammer{
     padding-left: 20px;
 }
+
+
+@media screen and (max-width: 1000px){
+    .projectLink{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .projectImage{
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media screen and (max-width: 550px){
+    .projectLink{
+        font-size: 15px;
+    }
+    .date{
+        font-size: 8px;
+    }
+    .projectImage{
+        width: 75px;
+        height: 75px;
+    }
+    .projectCard{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .projectLink{
+        font-size: 12px;
+    }
+    .date{
+        font-size: 8px;
+    }
+    .AndMinutesImage{
+        width: 50px;
+        height: 50px;
+    }
+    .AndMinutesText{
+        padding-right: 30px;
+    }
+}
