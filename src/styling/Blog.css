@@ -34,7 +34,6 @@
 .blogCard {
     position: relative;
     width: 75%;
-    float: left;
     display: flex;
     flex-direction: column;
     justify-content: center;

@@ -34,7 +34,8 @@ const ProjectContainer = () => {
                         key={ projectObject.id } 
                         image={projectObject.image}
                         title={ projectObject.title }
-                        link={ projectObject.link} 
+                        link={ projectObject.link}
+                        preview={projectObject.preview} 
                         date={projectObject.date}
                         /> 
                     )

@@ -4,6 +4,7 @@ const project = [
         title : 'PROJECTS COMING SOON!',
         date : '',
         link : "",
+        preview : 'IN THE MEAN TIME, YOU CAN CHECK OUT SOME LABS IN MY GITHUB!',
         image : ''
     }
 ]

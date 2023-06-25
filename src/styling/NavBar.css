@@ -127,6 +127,7 @@
         background-color: #fcfdff;
         height: 350px;
         box-shadow: -16px 16px 16px 8px rgba(0,0,0,0.2);
+        z-index: 2;
     }
     .nav-bar{
         display: none;
