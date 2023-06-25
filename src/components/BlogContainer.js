@@ -13,6 +13,10 @@ const BlogContainer = () => {
         return blogSearchObject.title.toLocaleLowerCase().includes(search.toLocaleLowerCase())
     })
 
+    const sortedBlogData = filteredBlogData.sort((a, b) => {
+        return new Date(b.date) - new Date(a.date);
+      });
+
     return(
         <div className='Blogs'>
             <div className="blogHeader">
@@ -31,7 +35,7 @@ const BlogContainer = () => {
                 />
             </div>
             <div className="blogCard">
-                {filteredBlogData.map( blogObject => { 
+                {sortedBlogData.map( blogObject => { 
                     return(
                         <Blog 
                         key={ blogObject.id } 

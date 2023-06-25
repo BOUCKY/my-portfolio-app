@@ -1,3 +1,5 @@
+import JSvsReact from './images/JSvReact.png'
+
 const blog = [
     {
         id : 1,
@@ -16,6 +18,15 @@ const blog = [
         preview: 'WHAT IS IMPOSTER SYNDROME? IMPOSTER SYNDROME REFERS TO A PSYCHOLOGICAL PHENOMENON WHERE INDIVIDUALS DOUBT THEIR ABILITIES AND ACCOMPLISHMENTS, FEELING LIKE THEY ARE UNDESERVING OF THEIR SUCCESS . . .',
         link : "https://dev.to/boucky/imposter-syndrome-in-the-tech-field-55ng",
         image : 'https://res.cloudinary.com/practicaldev/image/fetch/s--nAtWa0yu--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/nvshikyr9yvdr2ugmm11.jpeg'
+    },
+    {
+        id : 3,
+        title : 'JAVASCRIPT VS REACT',
+        date : 'JUNE 25, 2023',
+        minutes: '7 MINUTE READ',
+        preview: 'WHAT IS REACT? YOU MAY HAVE HEARD OF REACT BEFORE, BUT WHAT EXACTLY IS IT? REACT IS AN OPEN-SOURCE JAVASCRIPT LIBRARY USED FOR BUILDING USER INTERFACES (UIS) IN WEB APPLICATIONS. IT WAS DEVELOPED BY FACEBOOK AND . . .',
+        link : "https://dev.to/boucky/javascript-vs-react-23m0",
+        image : JSvsReact
     }
 ]
 
