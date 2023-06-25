@@ -26,7 +26,7 @@ const NavBar = () => {
             <div className={`nav-bar ${navClick ? 'active' : ''}`}>
                 <li className="nav-bar-list"><NavLink className="nav-bar-link" to="/" onClick={handleNavClick}>HOME</NavLink></li>
                 <li className="nav-bar-list"><NavLink className="nav-bar-link" to="about" onClick={handleNavClick}>ABOUT</NavLink></li>
-                <li className="nav-bar-list"><NavLink className="nav-bar-link" to="blog" onClick={handleNavClick}>BLOG</NavLink></li>
+                <li className="nav-bar-list"><NavLink className="nav-bar-link" to="blog" onClick={handleNavClick}>BLOGS</NavLink></li>
                 <li className="nav-bar-list"><NavLink className="nav-bar-link" to="projects" onClick={handleNavClick}>PROJECTS</NavLink></li>
                 <Resume />
             </div>
