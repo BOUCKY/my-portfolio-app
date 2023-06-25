@@ -9,7 +9,7 @@ const Blog = ({image, title, link, date, minutes, preview}) => {
             <div className="blogText">
                 <a className='blogLink' href={link}>{title}</a>
                 <p className="preview">{preview}</p>
-                <p className="dateAndMinutes">{date}      •      {minutes}</p>
+                <p className="dateAndMinutes">{date} • {minutes}</p>
             </div>
         </div>                       
     )
