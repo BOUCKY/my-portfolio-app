@@ -1,9 +1,6 @@
 import React from "react";
 import '../styling/About.css';
 
-import MyContainer from "./MyContainer";
-import DogsContainer from "./DogsContainer";
-import dogsData from "../dogs_data"
 
 
 const About = () =>{
