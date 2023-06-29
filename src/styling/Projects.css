@@ -74,7 +74,6 @@
 .projectImage {
     width: 125px;
     height: 125px;
-    filter: grayscale(50%);
 }
 .projectText {
     width: 80%;

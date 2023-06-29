@@ -1,15 +1,13 @@
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faHammer } from "@fortawesome/free-solid-svg-icons";
 
 const Project = ({image, title, link, preview, date }) => {
     return(
         <div className="projectContent">
             <div className="projectImageContainer">
-                {/* <img className="projectImage" src={image} alt=" " /> */}
+                <img className="projectImage" src={image} alt=" " />
             </div>
             <div className="projectText">
-                <a className='projectLink' href={link}>{title}<FontAwesomeIcon icon={faHammer} className="hammer"/></a>
+                <a className='projectLink' href={link}>{title}</a>
                 <p className="preview">{preview}</p>
                 <p className="date">{date}</p>
             </div>

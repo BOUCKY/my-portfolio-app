@@ -10,6 +10,11 @@ const ProjectContainer = () => {
     const filteredProjectData = projectData.filter((projectSearchObject) => {
         return projectSearchObject.title.toLocaleLowerCase().includes(search.toLocaleLowerCase())
     })
+
+    const sortedProjectData = filteredProjectData.sort((a, b) => {
+        return new Date(b.date) - new Date(a.date);
+      });
+
     return(
         <div className='Projects'>
             <div className="projectHeader">
@@ -28,7 +33,7 @@ const ProjectContainer = () => {
                 />
             </div>
             <div className="projectCard">
-                {filteredProjectData.map( projectObject => { 
+                {sortedProjectData.map( projectObject => { 
                     return(
                         <Project 
                         key={ projectObject.id } 
