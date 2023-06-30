@@ -32,7 +32,7 @@ const project = [
         title : 'MAC MILLER',
         date : 'APRIL 28, 2021',
         link : "https://alexisbou116.github.io/",
-        preview : 'A TRIBUTE TO MAC MILLER',
+        preview : 'A TRIBUTE TO MAC MILLER, AND MY VERY FIRST PROJECT',
         image : macMiller
     }
 ]
