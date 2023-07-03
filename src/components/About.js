@@ -2,7 +2,6 @@ import React from "react";
 import '../styling/About.css';
 
 
-
 const About = () =>{
     return(
         <div className="About">
