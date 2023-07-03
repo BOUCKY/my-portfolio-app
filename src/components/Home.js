@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import '../styling/Home.css'
 import Headshot from '../images/Headshot.JPG'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -7,6 +7,9 @@ import { faHtml5, faCss3Alt, faJs, faReact, faPython } from '@fortawesome/free-b
 
 
 const Home = () => {
+    useEffect(() => {
+        document.title="Alexis Boucouvalas"
+    }, [])
     return(
         <div className="Home">
             <div className="my-div">

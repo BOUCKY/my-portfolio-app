@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, {useState, useEffect} from "react";
 import '../styling/Projects.css'
 import projectData from '../project_data';
 import Project from "./Project";
@@ -6,6 +6,10 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
 const ProjectContainer = () => {
+    useEffect(() => {
+        document.title="Alexis Boucouvalas | Projects"
+    }, [])
+
     const [search, setSearch] = useState('')
     const filteredProjectData = projectData.filter((projectSearchObject) => {
         return projectSearchObject.title.toLocaleLowerCase().includes(search.toLocaleLowerCase())

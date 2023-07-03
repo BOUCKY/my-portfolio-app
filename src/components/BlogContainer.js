@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import '../styling/Blog.css'
 import Blog from './Blog'
 import blogData from '../blog_data'
@@ -7,6 +7,9 @@ import { faDev } from '@fortawesome/free-brands-svg-icons';
 
 
 const BlogContainer = () => {
+    useEffect(() => {
+        document.title="Alexis Boucouvalas | Blogs"
+    }, [])
 
     const [search, setSearch] = useState('')
     const filteredBlogData = blogData.filter((blogSearchObject) => {

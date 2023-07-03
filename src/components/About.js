@@ -1,8 +1,11 @@
-import React from "react";
+import React, {useEffect} from "react";
 import '../styling/About.css';
 
 
 const About = () =>{
+    useEffect(() => {
+        document.title="Alexis Boucouvalas | About"
+    }, [])
     return(
         <div className="About">
             <div className="big-container">
