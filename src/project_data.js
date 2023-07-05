@@ -15,7 +15,7 @@ const project = [
         id : 1,
         title : 'TASTY BITES',
         date : 'JUNE 29, 2023',
-        link : "https://github.com/BOUCKY/Phase-2-Project",
+        link : "https://tasty-bites.netlify.app/",
         preview : 'A PLACE TO BROWSE RECIPES, ADD SOME TO YOUR FAVORITES, AND EVEN ADD YOUR OWN.',
         image : tastyBites
     },
@@ -23,7 +23,7 @@ const project = [
         id : 2,
         title : 'MUSEUM OF MEMES',
         date : 'JUNE 9, 2023',
-        link : "https://github.com/JerryWu1998/phase-1-project",
+        link : "https://museum-of-memes.netlify.app/",
         preview : 'CREATE YOUR OWN MEMES GIVEN THE TEMPLATE AND ADD THEM TO THE MUSEUM!',
         image : memeMuseum
     },
