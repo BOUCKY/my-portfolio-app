@@ -68,7 +68,6 @@
     width: 125px;
     height: 125px;
     padding-right: 10px;
-    filter: grayscale(50%);
 }
 .blogText {
     width: 80%;
