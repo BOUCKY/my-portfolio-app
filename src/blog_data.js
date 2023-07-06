@@ -27,6 +27,15 @@ const blog = [
         preview: 'WHAT IS REACT? YOU MAY HAVE HEARD OF REACT BEFORE, BUT WHAT EXACTLY IS IT? REACT IS AN OPEN-SOURCE JAVASCRIPT LIBRARY USED FOR BUILDING USER INTERFACES (UIS) IN WEB APPLICATIONS. IT WAS DEVELOPED BY FACEBOOK AND . . .',
         link : "https://dev.to/boucky/javascript-vs-react-23m0",
         image : JSvsReact
+    },
+    {
+        id : 4,
+        title : 'THESE SIMPLE CSS TRICKS WILL TAKE YOUR WEBSITE TO THE NEXT LEVEL',
+        date : 'JULY 6, 2023',
+        minutes: '5 MINUTE READ',
+        preview: 'WHAT IS CSS? CSS, OR CASCADING STYLE SHEETS IS A FRONT-END LANGUAGE USED TO MAKE YOUR WEBSITE LOOK GOOD. WITHOUT CSS, YOUR WEBSITE WOULD . . .',
+        link : "https://dev.to/boucky/these-simple-css-tricks-will-take-your-website-to-the-next-level-4neb",
+        image : 'https://community-cdn-digitalocean-com.global.ssl.fastly.net/ghLpAM1gf6jm9AAqXekrZmip'
     }
 ]
 
