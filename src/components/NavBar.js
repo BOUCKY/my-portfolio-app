@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import '../styling/NavBar.css'
-import Resume from "./Resume";
+// import Resume from "./Resume";
+import MyResume from '../AlexisBoucouvalasResume.pdf'
 import { NavLink } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
@@ -28,7 +29,7 @@ const NavBar = () => {
                 <li className="nav-bar-list"><NavLink className="nav-bar-link" to="about" onClick={handleNavClick}>ABOUT</NavLink></li>
                 <li className="nav-bar-list"><NavLink className="nav-bar-link" to="blog" onClick={handleNavClick}>BLOGS</NavLink></li>
                 <li className="nav-bar-list"><NavLink className="nav-bar-link" to="projects" onClick={handleNavClick}>PROJECTS</NavLink></li>
-                <Resume />
+                <li className="nav-bar-list"><a className="nav-bar-link" href={MyResume}>RESUME</a></li>
             </div>
         </div>
     )
