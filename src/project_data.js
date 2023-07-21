@@ -1,6 +1,7 @@
 import tastyBites from './images/tastyBites.png'
 import memeMuseum from './images/memeMuseum.png'
 import macMiller from './images/macMiller.png'
+import Hangman from './images/Hangman.png'
 
 const project = [
     // {
@@ -34,6 +35,14 @@ const project = [
         link : "https://alexisbou116.github.io/",
         preview : 'A TRIBUTE TO MAC MILLER, AND MY VERY FIRST PROJECT',
         image : macMiller
+    },
+    {
+        id : 4,
+        title : 'CLI HANGMAN',
+        date : 'JULY 21, 2023',
+        link : "https://github.com/BOUCKY/Project-3",
+        preview : 'A FUN COMMAND LINE HANGMAN GAME!',
+        image : Hangman
     }
 ]
 
