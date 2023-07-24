@@ -54,6 +54,15 @@ const blog = [
         preview: 'THE ABILITY TO WRITE CLEAN AND READABLE CODE IS ESSENTIAL FOR NOT ONLY PYTHON DEVELOPERS, BUT ALL DEVELOPERS. HAVING CLEAN CODE . . .',
         link : "https://dev.to/boucky/python-best-practices-a-guide-to-writing-clean-and-readable-code-25k4",
         image : 'https://dev-to-uploads.s3.amazonaws.com/uploads/articles/0349cd1nvtw9a2q39pde.png'
+    },
+    {
+        id : 7,
+        title : 'MASTERING THE LAUNCH: YOUR FULL-STACK APP DEPLOYMENT GUIDE WITH NETLIFY AND RENDER',
+        date : 'JULY 24, 2023',
+        minutes: '5 MINUTE READ',
+        preview: "INTRODUCTION: CONGRATS ON FINISHING YOUR FULL-STACK APP! YOU'VE INVESTED TIME, EFFORT, AND CREATIVITY TO BUILD A REMARKABLE APPLICATION, AND NOW . . .",
+        link : "https://dev.to/boucky/mastering-the-launch-your-full-stack-app-deployment-guide-with-netlify-and-render-37od",
+        image : 'https://blog.tbhcreative.com/wp-content/uploads/website-launch.png'
     }
 ]
 
