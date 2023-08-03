@@ -63,6 +63,15 @@ const blog = [
         preview: "INTRODUCTION: CONGRATS ON FINISHING YOUR FULL-STACK APP! YOU'VE INVESTED TIME, EFFORT, AND CREATIVITY TO BUILD A REMARKABLE APPLICATION, AND NOW . . .",
         link : "https://dev.to/boucky/mastering-the-launch-your-full-stack-app-deployment-guide-with-netlify-and-render-37od",
         image : 'https://blog.tbhcreative.com/wp-content/uploads/website-launch.png'
+    },
+    {
+        id : 8,
+        title : 'HOW CHATGPT CAN ASSIST WITH YOUR CODE',
+        date : 'AUGUST 3, 2023',
+        minutes: '5 MINUTE READ',
+        preview: "WHAT IS CHATGPT? IN TODAY'S TECHNOLOGY-DRIVEN LANDSCAPE, CHATGPT HAS BECOME A TERM FAMILIAR TO MANY, EMBODYING THE REMARKABLE . . .",
+        link : "https://dev.to/boucky/how-chatgpt-can-assist-with-your-code-1mb3",
+        image : 'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSIHhCxjBPZlKK-CuOLo7mQL45YbO7Gipj0D5sAvhzRfB0fJ57h'
     }
 ]
 
