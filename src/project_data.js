@@ -3,6 +3,7 @@ import memeMuseum from './images/memeMuseum.png'
 import macMiller from './images/macMiller.png'
 import Hangman from './images/Hangman.png'
 import myTrails from './images/mytrails.png'
+import Travlers from './images/travlersClub.png'
 
 const project = [
     // {
@@ -50,8 +51,16 @@ const project = [
         title : 'MY TRAILS',
         date : 'AUGUST 11, 2023',
         link : "https://my-trails.netlify.app/",
-        preview : 'A FUN COMMAND LINE HANGMAN GAME!',
+        preview : 'A HIKING APP TO POST AND VIEW TRAILS.',
         image : myTrails
+    },
+    {
+        id : 6,
+        title : "TRAVLER'S CLUB",
+        date : 'AUGUST 25, 2023',
+        link : "https://github.com/BOUCKY/Project-3",
+        preview : 'BROWSE VARIOUS DESTINATIONS AND POST YOUR TRAVELS!',
+        image : Travlers
     }
 ]
 
