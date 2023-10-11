@@ -2,6 +2,7 @@ import tastyBites from './images/tastyBites.png'
 import memeMuseum from './images/memeMuseum.png'
 import macMiller from './images/macMiller.png'
 import Hangman from './images/Hangman.png'
+import myTrails from './images/mytrails.png'
 
 const project = [
     // {
@@ -43,6 +44,14 @@ const project = [
         link : "https://github.com/BOUCKY/Project-3",
         preview : 'A FUN COMMAND LINE HANGMAN GAME!',
         image : Hangman
+    },
+    {
+        id : 5,
+        title : 'MY TRAILS',
+        date : 'AUGUST 11, 2023',
+        link : "https://my-trails.netlify.app/",
+        preview : 'A FUN COMMAND LINE HANGMAN GAME!',
+        image : myTrails
     }
 ]
 
