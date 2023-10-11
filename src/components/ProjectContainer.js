@@ -46,6 +46,7 @@ const ProjectContainer = () => {
                         link={ projectObject.link}
                         preview={projectObject.preview} 
                         date={projectObject.date}
+                        githubLink={projectObject.githubLink}
                         /> 
                     )
                 })}

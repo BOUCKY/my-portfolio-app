@@ -19,6 +19,7 @@ const project = [
         title : 'TASTY BITES',
         date : 'JUNE 29, 2023',
         link : "https://tasty-bites.netlify.app/",
+        githubLink : "https://github.com/BOUCKY/Phase-2-Project",
         preview : 'A PLACE TO BROWSE RECIPES, ADD SOME TO YOUR FAVORITES, AND EVEN ADD YOUR OWN.',
         image : tastyBites
     },
@@ -27,6 +28,7 @@ const project = [
         title : 'MUSEUM OF MEMES',
         date : 'JUNE 9, 2023',
         link : "https://museum-of-memes.netlify.app/",
+        githubLink : "https://github.com/JerryWu1998/phase-1-project",
         preview : 'CREATE YOUR OWN MEMES GIVEN THE TEMPLATE AND ADD THEM TO THE MUSEUM!',
         image : memeMuseum
     },
@@ -35,6 +37,7 @@ const project = [
         title : 'MAC MILLER',
         date : 'APRIL 28, 2021',
         link : "https://alexisbou116.github.io/",
+        githubLink : "https://alexisbou116.github.io/",
         preview : 'A TRIBUTE TO MAC MILLER, AND MY VERY FIRST PROJECT',
         image : macMiller
     },
@@ -43,6 +46,7 @@ const project = [
         title : 'CLI HANGMAN',
         date : 'JULY 21, 2023',
         link : "https://github.com/BOUCKY/Project-3",
+        githubLink : "https://github.com/BOUCKY/Project-3",
         preview : 'A FUN COMMAND LINE HANGMAN GAME!',
         image : Hangman
     },
@@ -51,6 +55,7 @@ const project = [
         title : 'MY TRAILS',
         date : 'AUGUST 11, 2023',
         link : "https://my-trails.netlify.app/",
+        githubLink : "https://github.com/bonbongiraffe/mytrails",
         preview : 'A HIKING APP TO POST AND VIEW TRAILS.',
         image : myTrails
     },
@@ -58,7 +63,8 @@ const project = [
         id : 6,
         title : "TRAVLER'S CLUB",
         date : 'AUGUST 25, 2023',
-        link : "https://github.com/BOUCKY/Project-3",
+        link : "https://github.com/BOUCKY/final_project",
+        githubLink : "https://github.com/BOUCKY/final_project",
         preview : 'BROWSE VARIOUS DESTINATIONS AND POST YOUR TRAVELS!',
         image : Travlers
     }

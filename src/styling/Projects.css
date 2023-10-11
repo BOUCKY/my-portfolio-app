@@ -83,6 +83,9 @@
     padding-left: 20px;
     padding-right: 60px;
 }
+.projectGuthub:hover{
+    opacity: 0.6;
+}
 /* .projectText a:hover{
     opacity: 0.5;
 } */

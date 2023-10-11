@@ -1,6 +1,8 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
-const Project = ({image, title, link, preview, date }) => {
+const Project = ({image, title, link, preview, date, githubLink }) => {
     return(
         <div className="projectContent">
             <div className="projectImageContainer">
@@ -9,7 +11,7 @@ const Project = ({image, title, link, preview, date }) => {
             <div className="projectText">
                 <a className='projectLink' href={link}>{title}</a>
                 <p className="preview">{preview}</p>
-                <p className="date">{date}</p>
+                <p className="date">{date} <a className="projectGuthub" href={githubLink}><FontAwesomeIcon icon={faGithub} /></a></p>
             </div>
         </div>                       
     )
