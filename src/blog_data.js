@@ -72,6 +72,15 @@ const blog = [
         preview: "WHAT IS CHATGPT? IN TODAY'S TECHNOLOGY-DRIVEN LANDSCAPE, CHATGPT HAS BECOME A TERM FAMILIAR TO MANY, EMBODYING THE REMARKABLE . . .",
         link : "https://dev.to/boucky/how-chatgpt-can-assist-with-your-code-1mb3",
         image : 'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSIHhCxjBPZlKK-CuOLo7mQL45YbO7Gipj0D5sAvhzRfB0fJ57h'
+    },
+    {
+        id : 9,
+        title : 'THE FUTURE OF SOFTWARE DEVELOPMENT: TRENDS TO WATCH IN 2023 AND BEYOND',
+        date : 'DECEMBER 8, 2023',
+        minutes: '2 MINUTE READ',
+        preview: "IN THE EVER-EVOLVING LANDSCAPE OF TECHNOLOGY, SOFTWARE DEVELOPMENT REMAINS AT THE FOREFRONT, CONTINUOUSLY SHAPING HOW WE INTERACT . . .",
+        link : "https://dev.to/boucky/the-future-of-software-development-trends-to-watch-in-2023-and-beyond-8jb",
+        image : 'https://zegal.com/wp-content/uploads/2021/02/Screen-Shot-2021-02-05-at-9.58.38-AM.png'
     }
 ]
 

@@ -7,7 +7,7 @@ const Blog = ({image, title, link, date, minutes, preview}) => {
                 <img className="blogImage" src={image} alt="Blog" />
             </div>
             <div className="blogText">
-                <a className='blogLink' href={link}>{title}</a>
+                <a className='blogLink' href={link}  target="_blank" rel="noreferrer">{title}</a>
                 <p className="preview">{preview}</p>
                 <p className="dateAndMinutes">{date} • {minutes}</p>
             </div>
