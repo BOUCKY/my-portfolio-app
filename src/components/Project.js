@@ -9,7 +9,7 @@ const Project = ({image, title, link, preview, date, githubLink }) => {
                 <img className="projectImage" src={image} alt=" " />
             </div>
             <div className="projectText">
-                <a className='projectLink' href={link}  target="_blank" rel="noreferrer">{title}</a>
+                <a className='projectLink' href={link} target="_blank" rel="noreferrer">{title}</a>
                 <p className="preview">{preview}</p>
                 <p className="date">{date} <a className="projectGuthub" href={githubLink}><FontAwesomeIcon icon={faGithub} /></a></p>
             </div>

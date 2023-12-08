@@ -9,7 +9,7 @@ const Resume = () => {
             <button className="dropbtn">RESUME</button>
             <div className="dropdown-content">
                 <li>
-                    <a href={MyResume}>DOWNLOAD     <FontAwesomeIcon icon={faDownload} aria-hidden='true' /></a>
+                    <a href={MyResume} target="_blank" rel="noreferrer">DOWNLOAD     <FontAwesomeIcon icon={faDownload} aria-hidden='true' /></a>
                 </li>
             </div>
         </div>
