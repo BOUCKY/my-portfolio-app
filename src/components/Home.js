@@ -1,6 +1,7 @@
 import React, {useEffect} from "react";
 import '../styling/Home.css'
-import Headshot from '../images/Headshot.JPG'
+// import Headshot from '../images/Headshot.jpg'
+import Headshot from '../images/Headshot2.png'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHtml5, faCss3Alt, faJs, faReact, faPython, faPhp } from '@fortawesome/free-brands-svg-icons';
 import { faDatabase } from "@fortawesome/free-solid-svg-icons";

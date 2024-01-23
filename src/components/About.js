@@ -1,5 +1,6 @@
 import React, {useEffect} from "react";
 import '../styling/About.css';
+import Headshot2 from '../images/AboutPic.JPG'
 
 
 const About = () =>{
@@ -19,6 +20,9 @@ const About = () =>{
                         <p>I WAS ENROLLED IN FLATIRON'S FULL-TIME SOFTWARE ENGINEERING BOOTCAMP, WHICH ALLOWED ME TO DEEPEN MY TECHNICAL SKILLS AND EXPAND MY KNOWLEDGE. IT WAS AN EXCITING JOURNEY THAT NOT ONLY FURTHERED MY UNDERSTANDING OF CODE, BUT ALSO GAVE ME THE OPPORTUNITY TO COLLABORATE WITH OTHER PASSIONATE INDIVIDUALS AND WORK ON REAL-WORLD PROJECTS.</p>
                         <p>MY GOALS ARE TO GET THROUGH MY LAST YEAR OF COLLEGE, FINISH STRONG, IMPROVE ON AND SOLIDIFY MY TECHNICAL SKILLS, AND KICK-START MY CAREER IN SOFTWARE DEVELOPMENT. I WANT TO COMBINE MY LOVE FOR ART, CREATIVITY, AND PROBLEM SOLVING TO BUILD INNOVATIVE AND USER-FRIENDLY SOFTWARE APPLICATIONS THAT MAKE A POSITIVE IMPACT IN PEOPLE'S LIVES.</p>
                     </div>
+                </div>
+                <div className="pic-container">
+                    <img className='headshot2' src={Headshot2} alt="Headshot"></img>
                 </div>
             </div>
         </div>

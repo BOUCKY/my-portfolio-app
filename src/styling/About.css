@@ -10,6 +10,8 @@
 
 .big-container{
     width: 75%;
+    display: flex;
+    justify-content: space-between;
 }
 .about-container{
     width: 60%;
@@ -29,6 +31,13 @@
     line-height: 25px;
     text-align: left;
     margin-top: 15px;
+}
+
+.headshot2{
+    height: 500px;
+    margin-top: 135px;
+    border: 3px solid #62656a;
+    border-radius: 25px;
 }
 
 @media screen and (max-width: 500px){
