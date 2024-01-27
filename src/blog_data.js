@@ -81,6 +81,15 @@ const blog = [
         preview: "IN THE EVER-EVOLVING LANDSCAPE OF TECHNOLOGY, SOFTWARE DEVELOPMENT REMAINS AT THE FOREFRONT, CONTINUOUSLY SHAPING HOW WE INTERACT . . .",
         link : "https://dev.to/boucky/the-future-of-software-development-trends-to-watch-in-2023-and-beyond-8jb",
         image : 'https://zegal.com/wp-content/uploads/2021/02/Screen-Shot-2021-02-05-at-9.58.38-AM.png'
+    },
+    {
+        id : 10,
+        title : 'JAVA VS. PYTHON: AN INTRODUCTION TO TWO POWERFUL PROGRAMMING LANGUAGES',
+        date : 'JANUARY 27, 2024',
+        minutes: '5 MINUTE READ',
+        preview: "JAVA AND PYTHON ARE TWO OF THE MOST WIDELY USED PROGRAMMING LANGUAGES IN THE WORLD. WHILE PYTHON IS CELEBRATED FOR ITS SIMPLICITY . . .",
+        link : "https://dev.to/boucky/introduction-to-java-a-comprehensive-guide-with-python-comparison-5ajo",
+        image : 'https://kinsta.com/wp-content/uploads/2023/01/illustration-representing-python-vs-java.png'
     }
 ]
 
