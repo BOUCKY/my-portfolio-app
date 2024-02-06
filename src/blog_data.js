@@ -96,7 +96,7 @@ const blog = [
         title : 'WEB APPS VS MOBILE APPS',
         date : 'FEBRUARY 6, 2024',
         minutes: '4 MINUTE READ',
-        preview: "IN TODAY’S DIGITAL AGE, THE CHOICE BETWEEN DEVELOPING A WEB APP OR A MOBILE APP CAN BE PIVOTAL FOR BUSINESSES AND DEVELOPERS ALIKE. BOTH OPTIONS OFFER UNIQUE ADVANTAGES AND CATER . . .",
+        preview: "IN TODAY'S DIGITAL AGE, THE CHOICE BETWEEN DEVELOPING A WEB APP OR A MOBILE APP CAN BE PIVOTAL FOR BUSINESSES AND DEVELOPERS ALIKE. BOTH OPTIONS OFFER UNIQUE ADVANTAGES AND CATER . . .",
         link : "https://dev.to/boucky/web-apps-vs-mobile-apps-c95",
         image : 'https://www.eventya.net/wp-content/uploads/2021/03/Why-Choose-a-Mobile-App-Over-a-Website.jpg'
     }
