@@ -90,6 +90,15 @@ const blog = [
         preview: "JAVA AND PYTHON ARE TWO OF THE MOST WIDELY USED PROGRAMMING LANGUAGES IN THE WORLD. WHILE PYTHON IS CELEBRATED FOR ITS SIMPLICITY . . .",
         link : "https://dev.to/boucky/introduction-to-java-a-comprehensive-guide-with-python-comparison-5ajo",
         image : 'https://kinsta.com/wp-content/uploads/2023/01/illustration-representing-python-vs-java.png'
+    },
+    {
+        id : 11,
+        title : 'WEB APPS VS MOBILE APPS',
+        date : 'FEBRUARY 6, 2024',
+        minutes: '4 MINUTE READ',
+        preview: "IN TODAY’S DIGITAL AGE, THE CHOICE BETWEEN DEVELOPING A WEB APP OR A MOBILE APP CAN BE PIVOTAL FOR BUSINESSES AND DEVELOPERS ALIKE. BOTH OPTIONS OFFER UNIQUE ADVANTAGES AND CATER . . .",
+        link : "https://dev.to/boucky/web-apps-vs-mobile-apps-c95",
+        image : 'https://www.eventya.net/wp-content/uploads/2021/03/Why-Choose-a-Mobile-App-Over-a-Website.jpg'
     }
 ]
 
