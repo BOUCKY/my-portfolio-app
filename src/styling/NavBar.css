@@ -112,7 +112,7 @@
 }
 
 
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 1100px){
     .nav-bar.active{
         list-style-type: none;
         display: flex;

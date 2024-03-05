@@ -8,6 +8,7 @@ import Home from './Home';
 import About from './About'
 import BlogContainer from './BlogContainer'
 import ProjectContainer from './ProjectContainer';
+import DesignContainer from './DesignContainer';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
           <Route path='about' element={<About />} />
           <Route path='blog' element={<BlogContainer />} />
           <Route path='projects' element={<ProjectContainer />} />
+          <Route path='design' element={<DesignContainer />} />
         </Routes>
         <ScrollToTop />
         <Footer />

@@ -29,6 +29,7 @@ const NavBar = () => {
                 <li className="nav-bar-list"><NavLink className="nav-bar-link" to="about" onClick={handleNavClick}>ABOUT</NavLink></li>
                 <li className="nav-bar-list"><NavLink className="nav-bar-link" to="blog" onClick={handleNavClick}>BLOGS</NavLink></li>
                 <li className="nav-bar-list"><NavLink className="nav-bar-link" to="projects" onClick={handleNavClick}>PROJECTS</NavLink></li>
+                <li className="nav-bar-list"><NavLink className="nav-bar-link" to="design" onClick={handleNavClick}>DESIGN</NavLink></li>
                 <li className="nav-bar-list"><a className="nav-bar-link" href={MyResume} target="_blank" rel="noreferrer">RESUME</a></li>
             </div>
         </div>
