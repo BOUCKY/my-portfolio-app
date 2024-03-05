@@ -98,13 +98,18 @@
 }
 
 .popup{
+    position: fixed;
+    top: 55px;
+    width: 75%;
+    margin-bottom: 50px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    z-index: 9999;
 }
 .popupInner{
     width: 75%;
-    background-color: rgba(0,0,0,0.2);
+    background-color: rgba(0,0,0,0.6);
     margin: 25px;
     display: flex;
     flex-direction: column-reverse;
