@@ -4,6 +4,10 @@ import psycho from './graphicDesign/PsychoRedesign.png'
 import advocacy from './graphicDesign/AdvocacyPoster.png'
 import magazine from './graphicDesign/MagazineSpread.png'
 import tradingCard from './graphicDesign/TradingCard.png'
+import futurism from './graphicDesign/stamps/Futurism.png'
+import americanTrad from './graphicDesign/energyDrinks/AmericanTraditional.png'
+import fineline from './graphicDesign/energyDrinks/Fineline.png'
+import japanese from './graphicDesign/energyDrinks/Japanese.png'
 
 const design = [
     {
@@ -47,6 +51,34 @@ const design = [
         date: 'MAY 4, 2023',
         description: "DRAWING INSPIRATION FROM ISTVAN OROSZ AND HIS WORK, I'VE CRAFTED A TRADING CARD IN HIS HONOR.",
         image: tradingCard
+    },
+    {
+        id: 7,
+        title: 'STAMP #3: FUTURISM',
+        date: 'MARCH 11, 2024',
+        description: 'THE THIRD STAMP IN A SERIES OF SEVEN STAMPS, SHOWCASING MY IDEA OF WHAT THE AIR JORDAN LOGO WOULD LOOK LIKE THROUGH VARIOUS DESIGN AND ARTISTIC MOVEMENTS THROUGHOUT HISTORY.',
+        image: futurism
+    },
+    {
+        id: 8,
+        title: 'ENERGY DRINK #1: AMERICAN TRADITIONAL',
+        date: 'MARCH 12, 2024',
+        description: "THE FIRST DESIGN IN A SERIES OF THREE. I CREATED A TATTOO INSPIRED ENERGY DRINK BRAND WITH THREE CAN DESIGNS BASED ON A STYLE OF TATTOOS. THIS IS 'SAILOR'S PUNCH'.",
+        image: americanTrad
+    },
+    {
+        id: 9,
+        title: 'ENERGY DRINK #2: FINELINE',
+        date: 'MARCH 13, 2024',
+        description: "THE SECOND DESIGN IN A SERIES OF THREE. I CREATED A TATTOO INSPIRED ENERGY DRINK BRAND WITH THREE CAN DESIGNS BASED ON A STYLE OF TATTOOS. THIS IS 'FLORAL FIZZ'.",
+        image: fineline
+    },
+    {
+        id: 10,
+        title: 'ENERGY DRINK #3: JAPANESE',
+        date: 'MARCH 14, 2024',
+        description: "THE THIRD DESIGN IN A SERIES OF THREE. I CREATED A TATTOO INSPIRED ENERGY DRINK BRAND WITH THREE CAN DESIGNS BASED ON A STYLE OF TATTOOS. THIS IS 'DRAGON'S BREATH'.",
+        image: japanese
     },
 ]
 
