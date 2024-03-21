@@ -1,6 +1,6 @@
 import React, {useEffect} from "react";
 import '../styling/About.css';
-import Headshot2 from '../images/AboutPic.JPG'
+import Headshot3 from '../images/Headshot3.png'
 
 
 const About = () =>{
@@ -12,6 +12,9 @@ const About = () =>{
             <div className="big-container">
                 <div className="about-container">
                     <h1 className="greet">MY STORY</h1>
+                    <div className="pic-container">
+                        <img className='headshot3' src={Headshot3} alt="Headshot"></img>
+                    </div>
                     <div className="about-text">
                         <p>HI, I'M ALEXIS AND I'M A SOFTWARE ENGINEER! I'M CURRENTLY A FULL-TIME COLLEGE STUDENT AT UNH IN MY SENIOR YEAR, PURSUING A BACHELOR'S DEGREE IN COMPUTER INFORMATION SYSTEMS. I ORIGINALLY STARTED AS A BUSINESS MAJOR AND REALLY WANTED TO DO SOMETHING WITH ART. I'VE ALWAYS BEEN DRAWN TO ART, CREATIVITY, AND PROBLEM SOLVING.</p>
                         <p>WHEN I WAS PUT INTO AN INTRO TO WEB DESIGN CLASS, I JUST ABSOLUTELY FELL IN LOVE WITH PROGRAMMING. I REALIZED THAT SOFTWARE ENGINEERING WAS THE PERFECT BLEND OF MY PASSIONS. IT ALLOWED ME TO USE MY CREATIVITY TO DESIGN AND BUILD INTERACTIVE AND VISUALLY APPEALING APPLICATIONS, WHILE ALSO CHALLENGING ME TO SOLVE COMPLEX PROBLEMS THROUGH LOGICAL THINKING.</p>
@@ -20,9 +23,6 @@ const About = () =>{
                         <p>I WAS ENROLLED IN FLATIRON'S FULL-TIME SOFTWARE ENGINEERING BOOTCAMP, WHICH ALLOWED ME TO DEEPEN MY TECHNICAL SKILLS AND EXPAND MY KNOWLEDGE. IT WAS AN EXCITING JOURNEY THAT NOT ONLY FURTHERED MY UNDERSTANDING OF CODE, BUT ALSO GAVE ME THE OPPORTUNITY TO COLLABORATE WITH OTHER PASSIONATE INDIVIDUALS AND WORK ON REAL-WORLD PROJECTS.</p>
                         <p>MY GOALS ARE TO GET THROUGH MY LAST YEAR OF COLLEGE, FINISH STRONG, IMPROVE ON AND SOLIDIFY MY TECHNICAL SKILLS, AND KICK-START MY CAREER IN SOFTWARE DEVELOPMENT. I WANT TO COMBINE MY LOVE FOR ART, CREATIVITY, AND PROBLEM SOLVING TO BUILD INNOVATIVE AND USER-FRIENDLY SOFTWARE APPLICATIONS THAT MAKE A POSITIVE IMPACT IN PEOPLE'S LIVES.</p>
                     </div>
-                </div>
-                <div className="pic-container">
-                    <img className='headshot2' src={Headshot2} alt="Headshot"></img>
                 </div>
             </div>
         </div>
