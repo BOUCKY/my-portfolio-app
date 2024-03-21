@@ -26,7 +26,7 @@ const Design = ({ image, title, date, description }) => {
         {showPopup && (
             <div className="popup" onClick={togglePopup}>
                 <div className="popupInner">
-                    <img className="popupImage" src={image} alt="Design Popup" style={{ width: "50%" }} />
+                    <img className="popupImage" src={image} alt="Design Popup" />
                     <button className="closeButton" onClick={togglePopup}>{close}</button>
                 </div>
             </div>
