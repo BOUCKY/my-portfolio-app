@@ -38,14 +38,28 @@
     margin-top: 25px;
 }
 
+@media screen and (max-width: 625px){
+    .about-text{
+        font-size: 12px;
+    }
+    .greet{
+        font-size: 25px;
+    }
+}
 @media screen and (max-width: 500px){
     .about-container{
         width: 80%;
     }
 }
 
-@media screen and (max-width: 300px){
+@media screen and (max-width: 350px){
     .about-container{
         width: 90%;
+    }
+    .about-text{
+        font-size: 8px;
+    }
+    .greet{
+        font-size: 12px;
     }
 }

@@ -1,4 +1,7 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faPhone, faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 const Contact = () => {
     return (
@@ -15,6 +18,17 @@ const Contact = () => {
                 <li>LINKEDIN     <i className="fa fa-linkedin" aria-hidden="true"></i></li>
                 <li><a className="linkedIn" href="https://linkedin.com/in/alexis-boucouvalas-15aba6231">ALEXIS BOUCOUVALAS</a></li>
             </ul>
+            <div className="mobile-foot">
+                <ul className="mobile-footer-list">
+                    <li><a className="email" href="mailto:alexisbou16@gmail.com"><FontAwesomeIcon icon={faEnvelope} /></a></li>
+                </ul>
+                <ul className="mobile-footer-list">
+                    <li><a className="phoneNum" href="tel:603-321-4695"><FontAwesomeIcon icon={faPhone} /></a></li>
+                </ul>
+                <ul className="mobile-footer-list">
+                    <li><a className="linkedIn" href="https://linkedin.com/in/alexis-boucouvalas-15aba6231"><FontAwesomeIcon icon={faLinkedin} /></a></li>
+                </ul>
+            </div>
         </div>
     )
 }

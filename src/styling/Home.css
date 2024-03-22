@@ -121,11 +121,20 @@
     }
 }
 
-@media screen and (max-width: 300px){
+@media screen and (max-width: 350px){
+    .why{
+        font-size: 8px;
+    }
     .title{
-        font-size: 20px;
+        font-size: 16px;
     }
     .software-engineer{
-        font-size: 20px;
+        font-size: 12px;
+    }
+    .stack{
+        font-size: 12px;
+    }
+    #stack-logos{
+        font-size: 8px;
     }
 }
