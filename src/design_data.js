@@ -14,6 +14,7 @@ import psycho from './graphicDesign/PsychoRedesign.png'
 import advocacy from './graphicDesign/AdvocacyPoster.png'
 import magazine from './graphicDesign/MagazineSpread.png'
 import tradingCard from './graphicDesign/TradingCard.png'
+import stationary from './graphicDesign/Stationary.png'
 
 
 
@@ -94,6 +95,13 @@ const design = [
         date: 'MARCH 25, 2024',
         description: 'THE FOURTH STAMP IN A SERIES OF SEVEN STAMPS, SHOWCASING MY IDEA OF WHAT THE AIR JORDAN LOGO WOULD LOOK LIKE THROUGH VARIOUS DESIGN AND ARTISTIC MOVEMENTS THROUGHOUT HISTORY.',
         image: bauhaus
+    },
+    {
+        id: 12,
+        title: 'STATIONARY PACKAGE',
+        date: 'MARCH 20, 2024',
+        description: "MY BRANDED STATIONERY PACKAGE: A SEAMLESS BLEND OF MY IDENTITY WITH A FOCUS ON CLARITY AND PROFESSIONALISM. MAKE A LASTING IMPRESSION WITH MY LETTERHEAD, BUSINESS CARD, AND ENVELOPE DESIGN.",
+        image: stationary
     },
 ]
 
