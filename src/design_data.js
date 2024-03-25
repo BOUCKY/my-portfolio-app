@@ -1,13 +1,21 @@
+// STAMPS
 import artNouveau from './graphicDesign/stamps/ArtNouveau.png'
 import modernist from './graphicDesign/stamps/Modernist.png'
+import futurism from './graphicDesign/stamps/Futurism.png'
+import bauhaus from './graphicDesign/stamps/Bauhaus.png'
+
+// ENERGY DRINKS
+import americanTrad from './graphicDesign/energyDrinks/AmericanTraditional.png'
+import fineline from './graphicDesign/energyDrinks/Fineline.png'
+import japanese from './graphicDesign/energyDrinks/Japanese.png'
+
+// MISC
 import psycho from './graphicDesign/PsychoRedesign.png'
 import advocacy from './graphicDesign/AdvocacyPoster.png'
 import magazine from './graphicDesign/MagazineSpread.png'
 import tradingCard from './graphicDesign/TradingCard.png'
-import futurism from './graphicDesign/stamps/Futurism.png'
-import americanTrad from './graphicDesign/energyDrinks/AmericanTraditional.png'
-import fineline from './graphicDesign/energyDrinks/Fineline.png'
-import japanese from './graphicDesign/energyDrinks/Japanese.png'
+
+
 
 const design = [
     {
@@ -79,6 +87,13 @@ const design = [
         date: 'MARCH 14, 2024',
         description: "THE THIRD DESIGN IN A SERIES OF THREE. I CREATED A TATTOO INSPIRED ENERGY DRINK BRAND WITH THREE CAN DESIGNS BASED ON A STYLE OF TATTOOS. THIS IS 'DRAGON'S BREATH'.",
         image: japanese
+    },
+    {
+        id: 11,
+        title: 'STAMP #4: BAUHAUS',
+        date: 'MARCH 25, 2024',
+        description: 'THE FOURTH STAMP IN A SERIES OF SEVEN STAMPS, SHOWCASING MY IDEA OF WHAT THE AIR JORDAN LOGO WOULD LOOK LIKE THROUGH VARIOUS DESIGN AND ARTISTIC MOVEMENTS THROUGHOUT HISTORY.',
+        image: bauhaus
     },
 ]
 
