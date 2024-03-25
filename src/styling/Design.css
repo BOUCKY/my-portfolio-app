@@ -116,7 +116,92 @@
 }
 .popupImage{
     margin: auto;
-    /* width: 90%; */
-    /* max-width: 700px; */
     max-height: 90vh;
+}
+
+
+@media screen and (max-width: 1000px){
+    .designTitle{
+        font-size: 20px;
+    }
+    .description{
+        font-size: 12px;
+    }
+    .popupImage{
+        max-height: 75vh;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .designImage{
+        width: 100px;
+        height: 100px;
+    }
+    .popupImage{
+        max-height: 50vh;
+    }
+    .closeButton{
+        margin-left: 90%;
+    }
+}
+
+@media screen and (max-width: 550px){
+    .designTitle{
+        font-size: 15px;
+    }
+    .description{
+        font-size: 10px;
+    }
+    .date{
+        font-size: 8px;
+    }
+    .designImage{
+        width: 75px;
+        height: 75px;
+    }
+    .designCard{
+        width: 90%;
+    }
+}
+
+
+@media screen and (max-width: 500px){
+    .popupImage{
+        max-height: 35vh;
+    }
+}
+
+
+@media screen and (max-width: 400px){
+    .designTitle{
+        font-size: 12px;
+    }
+    .date{
+        font-size: 8px;
+    }
+    .designImage{
+        width: 50px;
+        height: 50px;
+    }
+    .designText{
+        padding-right: 30px;
+    }
+    .description{
+        font-size: 6px;
+    }
+    .closeButton{
+        margin-left: 80%;
+    }
+}
+
+@media screen and (max-width: 350px){
+    .popupImage{
+        max-height: 25vh;
+    }
+}
+
+@media screen and (max-width: 275px){
+    .popupImage{
+        max-height: 15vh;
+    }
 }
