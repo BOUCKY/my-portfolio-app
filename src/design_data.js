@@ -3,6 +3,7 @@ import artNouveau from './graphicDesign/stamps/ArtNouveau.png'
 import modernist from './graphicDesign/stamps/Modernist.png'
 import futurism from './graphicDesign/stamps/Futurism.png'
 import bauhaus from './graphicDesign/stamps/Bauhaus.png'
+import international from './graphicDesign/stamps/International.png'
 
 // ENERGY DRINKS
 import americanTrad from './graphicDesign/energyDrinks/AmericanTraditional.png'
@@ -102,6 +103,13 @@ const design = [
         date: 'MARCH 20, 2024',
         description: "MY BRANDED STATIONERY PACKAGE: A SEAMLESS BLEND OF MY IDENTITY WITH A FOCUS ON CLARITY AND PROFESSIONALISM. MAKE A LASTING IMPRESSION WITH MY LETTERHEAD, BUSINESS CARD, AND ENVELOPE DESIGN.",
         image: stationary
+    },
+    {
+        id: 13,
+        title: 'STAMP #5 INTERNATIONAL',
+        date: 'APRIL 8, 2024',
+        description: "THE FIFTH STAMP IN A SERIES OF SEVEN STAMPS, SHOWCASING MY IDEA OF WHAT THE AIR JORDAN LOGO WOULD LOOK LIKE THROUGH VARIOUS DESIGN AND ARTISTIC MOVEMENTS THROUGHOUT HISTORY.",
+        image: international
     },
 ]
 
