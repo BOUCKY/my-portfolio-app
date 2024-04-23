@@ -4,6 +4,7 @@ import modernist from './graphicDesign/stamps/Modernist.png'
 import futurism from './graphicDesign/stamps/Futurism.png'
 import bauhaus from './graphicDesign/stamps/Bauhaus.png'
 import international from './graphicDesign/stamps/International.png'
+import postModern from './graphicDesign/stamps/PostModern.png'
 
 // ENERGY DRINKS
 import americanTrad from './graphicDesign/energyDrinks/AmericanTraditional.png'
@@ -110,6 +111,13 @@ const design = [
         date: 'APRIL 8, 2024',
         description: "THE FIFTH STAMP IN A SERIES OF SEVEN STAMPS, SHOWCASING MY IDEA OF WHAT THE AIR JORDAN LOGO WOULD LOOK LIKE THROUGH VARIOUS DESIGN AND ARTISTIC MOVEMENTS THROUGHOUT HISTORY.",
         image: international
+    },
+    {
+        id: 14,
+        title: 'STAMP #6 POST MODERN',
+        date: 'APRIL 22, 2024',
+        description: "THE SIXTH STAMP IN A SERIES OF SEVEN STAMPS, SHOWCASING MY IDEA OF WHAT THE AIR JORDAN LOGO WOULD LOOK LIKE THROUGH VARIOUS DESIGN AND ARTISTIC MOVEMENTS THROUGHOUT HISTORY.",
+        image: postModern
     },
 ]
 
