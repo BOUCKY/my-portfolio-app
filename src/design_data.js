@@ -18,6 +18,7 @@ import advocacy from './graphicDesign/AdvocacyPoster.png'
 import magazine from './graphicDesign/MagazineSpread.png'
 import tradingCard from './graphicDesign/TradingCard.png'
 import stationary from './graphicDesign/Stationary.png'
+import merch from './graphicDesign/Merch.png'
 
 
 
@@ -101,9 +102,9 @@ const design = [
     },
     {
         id: 12,
-        title: 'STATIONARY PACKAGE',
+        title: 'BRANDING: STATIONARY PACKAGE',
         date: 'MARCH 20, 2024',
-        description: "MY BRANDED STATIONERY PACKAGE: A SEAMLESS BLEND OF MY IDENTITY WITH A FOCUS ON CLARITY AND PROFESSIONALISM. MAKE A LASTING IMPRESSION WITH MY LETTERHEAD, BUSINESS CARD, AND ENVELOPE DESIGN.",
+        description: "MY BRANDED STATIONERY PACKAGE: A SEAMLESS BLEND OF MY IDENTITY WITH A FOCUS ON CLARITY AND PROFESSIONALISM. MAKES A LASTING IMPRESSION WITH MY LETTERHEAD, BUSINESS CARD, AND ENVELOPE DESIGN.",
         image: stationary
     },
     {
@@ -126,6 +127,13 @@ const design = [
         date: 'MAY 1, 2024',
         description: "THE SEVENTH AND FINAL STAMP IN A SERIES OF SEVEN STAMPS, SHOWCASING MY IDEA OF WHAT THE AIR JORDAN LOGO WOULD LOOK LIKE THROUGH VARIOUS DESIGN AND ARTISTIC MOVEMENTS THROUGHOUT HISTORY.",
         image: punk
+    },
+    {
+        id: 16,
+        title: 'BRANDING: MERCHANDISE PACKAGE',
+        date: 'APRIL 29, 2024',
+        description: "MY BRANDED MERCHANDISE PACKAGE: A SEAMLESS BLEND OF MY IDENTITY WITH A FOCUS ON CLARITY AND PROFESSIONALISM. MAKES A LASTING IMPRESSION WITH MOUSEPAD, FLASHDRIVE, PENS, MUG, STICKY NOTES, NOTEBOOK, AND RUBBER DUCK STRESS BALL.",
+        image: merch
     },
 ]
 
