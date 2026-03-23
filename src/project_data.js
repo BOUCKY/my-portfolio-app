@@ -4,6 +4,7 @@ import macMiller from './images/macMiller.png'
 import Hangman from './images/Hangman.png'
 import myTrails from './images/mytrails.png'
 import Travlers from './images/travlersClub.png'
+import caiaSolutions from './images/caiaSolutions.png'
 
 const project = [
     // {
@@ -67,6 +68,15 @@ const project = [
         githubLink : "https://github.com/BOUCKY/final_project",
         preview : 'BROWSE VARIOUS DESTINATIONS AND POST YOUR TRAVELS!',
         image : Travlers
+    },
+    {
+        id : 7,
+        title : "CAIASOFT®",
+        date : 'APRIL 15, 2025',
+        link : "https://www.caia-solutions.com/",
+        githubLink : "#",
+        preview : 'COLLECTIONS ARE INFINTIE; SPACE IS FINITE',
+        image : caiaSolutions
     }
 ]
 
